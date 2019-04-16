@@ -1,0 +1,29 @@
+users:
+  amac:
+    username: amac
+    articleIds: [1]
+    commentIds: [1]
+  Gil:
+    username: Gil
+    articleIds: []
+    commentIds: []
+articles:
+  '1':
+    id: 1
+    title: City Island chronicals
+    url: /IslandCurrent.com
+    username: amac
+    commentIds: [1]
+    upvotedBy: [amac]
+    downvotedBy: []
+    comments: []
+nextArticleId: 2
+comments:
+  '1':
+    id: 1
+    body: grt articel
+    username: amac
+    articleId: 1
+    upvotedBy: []
+    downvotedBy: []
+nextCommentId: 2
